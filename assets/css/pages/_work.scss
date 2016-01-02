@@ -1,0 +1,100 @@
+.work-title {
+	padding: 2.5em 0;
+	margin: 0;
+}
+
+.work-container {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: -1em 0 1em -1em;
+}
+
+.project {
+	flex: 1 0 calc(50% - 2em);
+	padding: 1em 0 0 1em;
+	overflow: hidden;
+
+	figure {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		overflow: hidden;
+
+		&:hover figcaption::after {
+			transform: translate3d(0, 0, 0);
+		}
+
+		&:hover img {
+			transform: translate3d(0, -100px, 0);
+			filter: grayscale(0) brightness(75%);
+		}
+
+		img {
+			position: relative;
+			z-index: 999;
+			max-width: 100%;
+			vertical-align: top;
+
+			transform: translate3d(0, 0, 0);
+			filter: grayscale(100%) brightness(30%);
+			transition: 0.4s ease-in-out;
+		}
+	}
+
+	figcaption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: $divider-thickness;
+			background: $white;
+
+			transform: translate3d(-105%, 0, 0);
+			transition: transform 0.4s;
+		}
+	}
+
+	a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+	}
+
+}
+
+@media only screen and (max-width: $break-small) {
+	
+	.project {
+		flex: 1 0 calc(100% - 1em);
+
+		figure:hover img {
+			transform: translate3d(0, 0, 0);
+			// filter: grayscale(0) brightness(75%);
+		}
+
+		figcaption {
+			bottom: 1em;
+			left: 1em;
+			z-index: 1000;
+
+			&::after {
+				transform: translate3d(0, 0, 0);
+				transition: none;
+			}
+		}
+
+	}
+}

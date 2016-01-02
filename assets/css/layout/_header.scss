@@ -1,0 +1,41 @@
+header {
+	@include main-layout;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5.625em;
+
+	.home-link {
+		@include anchor-styling($white);
+	}
+}
+
+nav {
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	ul {
+		list-style: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		padding: 1em;
+	}
+
+	li:first-child {
+		padding-left: 0;
+	}
+
+	li:last-child {
+		padding-right: 0;
+	}
+
+	a {
+		@include anchor-styling($white);
+		padding: 1em 0;
+	}
+}

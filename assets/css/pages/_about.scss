@@ -1,0 +1,43 @@
+.about-page {
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+.about-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: -1em 0 1em -1em;
+	padding-top: 2.5em;
+}
+
+.skills,
+.experience {
+	padding: 1em 0 0 1em;
+	flex: 1 0 calc(50% - 2em);
+}
+
+.skills-list,
+.experience-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.experience-list li {
+	padding-bottom: 1em;
+}
+
+.resume {
+	padding: 1em 0 0 1em;
+	margin-top: 3.5em;
+}
+
+@media only screen and (max-width: $break-small) {
+	.skills,
+	.experience {
+		flex: 1 0 calc(100% - 2em);
+	}
+}

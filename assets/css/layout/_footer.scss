@@ -1,0 +1,24 @@
+footer {
+	@include main-layout;
+	padding-top: 8em;
+	padding-bottom: 2.5em;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border-top: $divider-thickness solid $white;
+		width: 33.33333%;
+		@media only screen and (max-width: $break-small) {
+			width: 100%;
+		}
+	}
+
+	li:first-child {
+		padding-top: 2.5em;
+	}
+
+	a {
+		@include anchor-styling($white);
+	}
+}

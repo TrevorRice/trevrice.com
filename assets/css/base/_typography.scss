@@ -1,0 +1,43 @@
+body {
+	font-family: $maison-neue-book;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+span {
+	line-height: 1.5;
+	font-size: 0.9em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $maison-neue-bold;
+}
+
+h1 {
+	line-height: 1.25;
+}
+
+.intro p {
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+
+figcaption > h3 {
+	margin: 0;
+}
+
+figcaption > p {
+	margin: 0 0 0.75em;
+}
+
+a {
+	line-height: 1.25;
+}
