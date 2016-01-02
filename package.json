@@ -1,0 +1,25 @@
+{
+  "name": "trevrice.com",
+  "version": "1.0.0",
+  "description": "Portfolio site of Trevor Rice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorRice/trevrice.com.git"
+  },
+  "author": "Trevor Rice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorRice/trevrice.com/issues"
+  },
+  "homepage": "https://github.com/TrevorRice/trevrice.com#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.1"
+  }
+}

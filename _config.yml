@@ -1,0 +1,11 @@
+name: Trevor Rice
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+include: ['_pages']
+
+page_gen:
+  - data: 'projects'
+    template: 'detail'
+    name: 'title'
+    dir: 'projects'
