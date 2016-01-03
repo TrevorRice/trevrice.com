@@ -669,3 +669,9 @@ footer {
     -webkit-flex: 1 0 -webkit-calc(100% - 1em);
         -ms-flex: 1 0 calc(100% - 1em);
             flex: 1 0 calc(100% - 1em); } }
+
+.notfound h1 {
+  font-size: 5em; }
+
+.notfound a {
+  color: #FFFFFF; }
