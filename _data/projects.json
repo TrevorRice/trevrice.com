@@ -48,23 +48,23 @@
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
 				"imageWidth": "full-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
+				"imageWidth": "half-width",
 				"src": "http://placehold.it/2000x1500"
 			}
 
@@ -83,19 +83,19 @@
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
-				"imageWidth": "half-width",
+				"imageWidth": "full-width",
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
-				"imageWidth": "half-width",
+				"imageWidth": "full-width",
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
-				"imageWidth": "half-width",
+				"imageWidth": "full-width",
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
-				"imageWidth": "half-width",
+				"imageWidth": "full-width",
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
@@ -114,15 +114,15 @@
 		"thumbnail": "http://lorempixel.com/800/800",
 		"detailImages": [
 			{
+				"imageWidth": "half-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "http://placehold.it/2000x1500"
+			},
+			{
 				"imageWidth": "full-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
 				"src": "http://placehold.it/2000x1500"
 			},
 			{
