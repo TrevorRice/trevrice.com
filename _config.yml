@@ -1,7 +1,7 @@
 name: Trevor Rice
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md", "TODO.md"]
 include: ['_pages']
 
 page_gen:
