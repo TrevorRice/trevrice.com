@@ -1,27 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-	{% include head.html %}
-    <body>
-      	{% include header.html %}
+---
+layout: default
+---
 
-      	<main class="detail-page">
-      		<section class="intro">
-      			<h1>{{ page.title }}</h1>
-      			<p>{{ page.description }}</p>
-      			<p>{{ page.type }}</p>
-      			<p>{{ page.technologies }}</p>
-      		</section>
-      		<section class="project-images">
-      			<ul class="image-container">
-      				{% for image in page.detailImages %}
-					<li class="{{ image.imageWidth }}">
-						<img src="{{ image.src }}">
-					</li>
-      				{% endfor %}
-      			</ul>
-      		</section>
-      	</main>
-	
-     	{% include footer.html %}
-    </body>
-</html>
+<main class="detail-page">
+    <section class="intro">
+      	<h1>{{ page.title }}</h1>
+      	<p>{{ page.description }}</p>
+      	<p>{{ page.type }}</p>
+      	<p>{{ page.technologies }}</p>
+    </section>
+    <section class="project-images">
+      	<ul class="image-container">
+      		{% for image in page.detailImages %}
+			<li class="{{ image.imageWidth }}">
+				<img src="{{ image.src }}">
+			</li>
+      		{% endfor %}
+      	</ul>
+    </section>
+</main>
