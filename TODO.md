@@ -1,7 +1,7 @@
 <ul>
 	<li>CONTENT</li>
 	<li><del>404 page</del></li>
-	<li>Google Analytics</li>
+	<li><del>Google Analytics</del></li>
 	<li>Minify / Uglify</li>
 	<li><del>Publish</del></li>
 	<li>Remove .html extension</li>
