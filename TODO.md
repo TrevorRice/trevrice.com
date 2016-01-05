@@ -8,4 +8,5 @@
 	<li>Sourcemaps</li>
 	<li><del>Deep link</del></li>
 	<li><del>Update README</del></li>
+	<li>"Medium" width intro</li>
 </ul>

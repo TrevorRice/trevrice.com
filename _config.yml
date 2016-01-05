@@ -7,5 +7,5 @@ include: ['_pages']
 page_gen:
   - data: 'projects'
     template: 'detail'
-    name: 'title'
+    name: 'href'
     dir: 'work'

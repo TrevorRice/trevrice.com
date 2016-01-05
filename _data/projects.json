@@ -1,11 +1,12 @@
 [
 
 	{
-		"title": "project1",
-		"href": "project1",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum incidunt dignissimos alias dolor laboriosam veniam eveniet provident, adipisci sed natus consectetur, vel laborum maxime ipsam deserunt obcaecati quod officia aperiam!",
-		"type": "website",
-		"technologies": "blah, blah, blah",
+		"title": "trevrice.com",
+		"titleDetail": "trevrice.com",
+		"href": "portfolio",
+		"description": "For my portfolio site, I decided",
+		"type": "Website",
+		"technologies": "Jekyll, SASS(SCSS), Gulp, GitHub Pages",
 		"thumbnail": "http://lorempixel.com/800/800",
 		"detailImages": [
 			{
@@ -36,11 +37,12 @@
 		]
 	},
 	{
-		"title": "project2",
-		"href": "project2",
+		"title": "Leo Burnett Internship",
+		"titleDetail": "Leo Burnett Internship",
+		"href": "leo-burnett",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum incidunt dignissimos alias dolor laboriosam veniam eveniet provident, adipisci sed natus consectetur, vel laborum maxime ipsam deserunt obcaecati quod officia aperiam!",
-		"type": "website",
-		"technologies": "blah, blah, blah",
+		"type": "Website",
+		"technologies": "SASS, JavaScript(jQuery), BoltCMS, Wordpress, Tumblr, Foundation, Grunt, SourceTree, Video.js",
 		"thumbnail": "http://lorempixel.com/800/800",
 		"detailImages": [
 			{
@@ -71,11 +73,12 @@
 		]
 	},
 	{
-		"title": "project3",
-		"href": "project3",
+		"title": "Cosmic Calendar",
+		"titleDetail": "Cosmic Calendar",
+		"href": "cosmic-calendar",
 		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum incidunt dignissimos alias dolor laboriosam veniam eveniet provident, adipisci sed natus consectetur, vel laborum maxime ipsam deserunt obcaecati quod officia aperiam!",
-		"type": "website",
-		"technologies": "blah, blah, blah",
+		"type": "Website",
+		"technologies": "Three.js, SASS(SCSS), Grunt, jQuery",
 		"thumbnail": "http://lorempixel.com/800/800",
 		"detailImages": [
 			{
