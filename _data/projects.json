@@ -47,27 +47,35 @@
 		"detailImages": [
 			{
 				"imageWidth": "full-width",
-				"src": "http://placehold.it/2000x1500"
+				"src": "comed-home.png"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "comed-teams.png"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "comed-stem.png"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "comed-involved.png"
+			},
+			{
+				"imageWidth": "half-width",
+				"src": "comed-vids.png"
 			},
 			{
 				"imageWidth": "full-width",
-				"src": "http://placehold.it/2000x1500"
+				"src": "marwen-home.png"
 			},
 			{
 				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
+				"src": "marwen-installations.png"
 			},
 			{
 				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
+				"src": "marwen-detail.png"
 			}
 
 		]
