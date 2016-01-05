@@ -3,6 +3,8 @@ var ghPages     = require('gulp-gh-pages');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
+var minifyCss   = require('gulp-minify-css');
+var rename      = require('gulp-rename');
 var cp          = require('child_process');
 
 var messages = {
