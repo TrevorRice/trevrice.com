@@ -21,6 +21,15 @@ gulp.task('jekyll-build', function (done) {
 });
 
 /**
+ * Build the Jekyll Site for production
+ */
+gulp.task('jekyll-build-prod', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+        .on('close', done);
+});
+
+/**
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
