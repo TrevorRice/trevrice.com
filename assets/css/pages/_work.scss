@@ -75,14 +75,13 @@
 
 }
 
-@media only screen and (max-width: $break-small) {
-	
-	.project {
-		flex: 1 0 calc(100% - 1em);
 
+@media only screen and (max-width: $break-medium) {
+
+	.project {
+		
 		figure:hover img {
 			transform: translate3d(0, 0, 0);
-			// filter: grayscale(0) brightness(75%);
 		}
 
 		figcaption {
@@ -95,6 +94,14 @@
 				transition: none;
 			}
 		}
-
 	}
+
+}
+
+@media only screen and (max-width: $break-small) {
+	
+	.project {
+		flex: 1 0 calc(100% - 1em);
+	}
+	
 }

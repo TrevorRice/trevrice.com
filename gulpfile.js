@@ -12,6 +12,14 @@ var messages = {
 };
 
 /**
+ * Deploy to gh-pages
+ */
+gulp.task('deploy', ['jekyll-build-prod'], function() {
+    return gulp.src('./_site/**/*')
+        .pipe(ghPages());
+});
+
+/**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
@@ -65,14 +73,6 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
-});
-
-/**
- * Deploy to gh-pages
- */
-gulp.task('deploy', ['jekyll-build-prod'], function() {
-    return gulp.src('./_site/**/*')
-        .pipe(ghPages());
 });
 
 /**
