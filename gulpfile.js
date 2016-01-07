@@ -81,7 +81,7 @@ gulp.task('sass', function () {
  */
 gulp.task('images', function () {
     return gulp.src('assets/img/*.png')
-        .pipe(imageminOptipng({optimizationLevel: 3})())
+        .pipe(imageminOptipng({optimizationLevel: 5})())
         .pipe(gulp.dest('assets/imagemin'));
 });
 
