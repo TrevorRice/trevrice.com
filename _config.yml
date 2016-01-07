@@ -4,7 +4,7 @@ description: Personal site of Trevor Rice, front-end web developer from Chicago,
 url: http://trevrice.com
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json", "assets/css/main.scss", "assets/img/", "README.md", "TODO.md"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "assets/css/main.scss", "README.md", "TODO.md"]
 include: ['_pages']
 
 page_gen:
