@@ -73,41 +73,6 @@
 			}
 
 		]
-	},
-	{
-		"title": "project4",
-		"href": "project4",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum incidunt dignissimos alias dolor laboriosam veniam eveniet provident, adipisci sed natus consectetur, vel laborum maxime ipsam deserunt obcaecati quod officia aperiam!",
-		"type": "website",
-		"technologies": "blah, blah, blah",
-		"thumbnail": "trevrice-thumb-min.png",
-		"detailImages": [
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "full-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "half-width",
-				"src": "http://placehold.it/2000x1500"
-			},
-			{
-				"imageWidth": "full-width",
-				"src": "http://placehold.it/2000x1500"
-			}
-
-		]
 	}
 
 ]
