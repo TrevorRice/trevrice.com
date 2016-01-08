@@ -596,8 +596,7 @@ footer {
             flex: 1 0 calc(100% - 1em); } }
 
 .about-page a {
-  color: #FFFFFF;
-  text-decoration: none; }
+  color: #FFFFFF; }
 
 .about-info {
   display: -webkit-box;
@@ -642,6 +641,9 @@ footer {
     -webkit-flex: 1 0 -webkit-calc(100% - 2em);
         -ms-flex: 1 0 calc(100% - 2em);
             flex: 1 0 calc(100% - 2em); } }
+
+.detail-page a {
+  color: #FFFFFF; }
 
 .image-container {
   display: -webkit-box;

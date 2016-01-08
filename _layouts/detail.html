@@ -8,6 +8,10 @@ layout: default
       	<p>{{ page.description }}</p>
         <br/>
       	<p>{{ page.technologies }}</p>
+        {% if page.source %}
+        <br/>
+        <p><a href="{{ page.source }}" target="_blank">Source Code</a></p>
+        {% endif %}
     </section>
     <section class="project-images">
       	<ul class="image-container">

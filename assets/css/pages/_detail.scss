@@ -1,3 +1,11 @@
+.detail-page {
+	
+	a {
+		color: $white;
+	}
+	
+}
+
 .image-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -22,6 +30,7 @@
 		max-width: 100%;
 		vertical-align: top;
 	}
+
 }
 
 @media only screen and (max-width: $break-small) {
