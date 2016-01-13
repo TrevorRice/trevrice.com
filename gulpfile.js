@@ -76,7 +76,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('assets/css'))
         .pipe(cssnano())
         .pipe(rename('main.min.css'))
-        .pipe(gulp.dest('_site/assets/css'));
+        .pipe(gulp.dest('assets/css'));
 });
 
 /**
