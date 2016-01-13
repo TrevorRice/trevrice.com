@@ -73,9 +73,9 @@ gulp.task('sass', function () {
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets/css'))
         .pipe(cssnano())
         .pipe(rename('main.min.css'))

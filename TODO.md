@@ -10,4 +10,6 @@
 	<li><del>Update README</del></li>
 	<li><del>"Medium" width intro</del></li>
 	<li>Shitty looking fonts on Windows</li>
+	<li>Fix page titles</li>
+	<li><del>Work page project underline</del></li>
 </ul>
