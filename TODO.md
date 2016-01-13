@@ -2,10 +2,10 @@
 	<li>CONTENT</li>
 	<li><del>404 page</del></li>
 	<li><del>Google Analytics</del></li>
-	<li>Minify / Uglify</li>
+	<li><del>Minify / Uglify</del></li>
 	<li><del>Publish</del></li>
 	<li>Remove .html extension</li>
-	<li>Sourcemaps</li>
+	<li><del>Sourcemaps</del></li>
 	<li><del>Deep link</del></li>
 	<li><del>Update README</del></li>
 	<li><del>"Medium" width intro</del></li>

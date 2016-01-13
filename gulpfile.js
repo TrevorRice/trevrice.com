@@ -5,6 +5,7 @@ var sass            = require('gulp-sass');
 var prefix          = require('gulp-autoprefixer');
 var cssnano         = require('gulp-cssnano');
 var rename          = require('gulp-rename');
+var sourcemaps      = require('gulp-sourcemaps');
 var imageminOptipng = require('imagemin-optipng');
 var cp              = require('child_process');
 
@@ -66,6 +67,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  */
 gulp.task('sass', function () {
     return gulp.src('assets/css/main.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify
@@ -73,6 +75,7 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets/css'))
         .pipe(cssnano())
         .pipe(rename('main.min.css'))
