@@ -1,5 +1,5 @@
 <ul>
-	<li>CONTENT</li>
+	<li><del>CONTENT</del></li>
 	<li><del>404 page</del></li>
 	<li><del>Google Analytics</del></li>
 	<li><del>Minify / Uglify</del></li>
