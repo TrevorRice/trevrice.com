@@ -516,10 +516,10 @@ footer {
   margin: -1em 0 1em -1em; }
 
 .project {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 -webkit-calc(50% - 2em);
-      -ms-flex: 1 0 calc(50% - 2em);
-          flex: 1 0 calc(50% - 2em);
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 -webkit-calc(50% - 1em);
+      -ms-flex: 0 0 calc(50% - 1em);
+          flex: 0 0 calc(50% - 1em);
   padding: 1em 0 0 1em;
   overflow: hidden; }
   .project figure {
