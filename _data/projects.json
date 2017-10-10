@@ -1,5 +1,42 @@
 [
 	{
+		"title": "cottonusa.org",
+		"titleDetail": "COTTON USA Global Website",
+		"href": "cotton-usa",
+		"link": "//cottonusa.org",
+		"description": "Our goal was to consolidate various country-specific Cotton sites into one global site translated across twelve languages. Knowing this, we did our best to communicate the challenges associated with multilingual sites to the Creative team. Craft CMS was chosen for it’s intuitive Control Panel and localization capabilities.\n\nPrior to this project I proposed a style and best practices guide to create a more efficient and sustainable workflow. By taking a more modular approach, we were able to reuse, modify, and remove components without the fear of breaking a component elsewhere. Though it wasn’t a perfect solution, it was a vast improvement on our previous workflow.\n\nI was responsible for developing a majority of the site’s components, as well as creating their respective fields in the CMS. I created a few Sass mixins and functions to address some of the multilingual challenges (for instance, handling left-to-right and right-to-left scripts). I also wrote a Twig macro to serve appropriately sized uploaded images with the image tag’s srcset attribute and Craft’s image transforms.\n\nAccessibility was of utmost importance to our client Cotton Council International. Since this was something I wanted to learn more about, I took on the challenge and did my best to create an as accessible site as I could. One of the biggest tasks was making the top navigation intuitive to a screen reader and keyboard user.",
+		"type": "Website",
+		"technologies": "Craft CMS, Twig, SASS(SCSS), JavaScript(ES6, jQuery), Gulp",
+		"thumbnail": "cotton-usa/thumb/cotton-usa.jpg",
+		"detailAssets": [
+			{
+				"type": "video",
+				"width": "full-width",
+				"src": "cotton-usa/homepage.mp4"
+			},
+			{
+				"type": "image",
+				"width": "full-width",
+				"src": "cotton-usa/desktop/our-promise.jpg"
+			},
+			{
+				"type": "image",
+				"width": "full-width",
+				"src": "cotton-usa/desktop/buyers-guide.jpg"
+			},
+			{
+				"type": "image",
+				"width": "half-width",
+				"src": "cotton-usa/mobile/homepage.jpg"
+			},
+			{
+				"type": "image",
+				"width": "half-width",
+				"src": "cotton-usa/mobile/menu.jpg"
+			}
+		]
+	},
+	{
 		"title": "theporschepanamera.com",
 		"titleDetail": "Porsche Panamera Microsite",
 		"href": "the-porsche-panamera",
@@ -8,29 +45,45 @@
 		"type": "Website",
 		"technologies": "Pug, GSAP, JavaScript(ES6, jQuery), SASS(SCSS), Gulp",
 		"thumbnail": "panamera/thumb/panamera.jpg",
-		"detailImages": [
+		"awards": [
 			{
-				"imageWidth": "full-width",
+				"name": "Awwwards Site of the Day",
+				"link": "//www.awwwards.com/sites/porsche-panamera"
+			},
+			{
+				"name": "Commarts Webpick",
+				"link": "//www.commarts.com/webpicks/the-new-panamera"
+			}
+		],
+		"detailAssets": [
+			{
+				"type": "image",
+				"width": "full-width",
 				"src": "panamera/desktop/home.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "panamera/desktop/356.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "panamera/desktop/race-bred-innovation.jpg"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "panamera/desktop/engine.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "panamera/mobile/home.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "panamera/mobile/911-turbo.jpg"
 			}
 		]
@@ -44,25 +97,30 @@
 		"type": "Website",
 		"technologies": "PHP, WordPress, WP Engine, JavaScript, Multiscroll.js, Fancybox.js, Modernizr, SASS(SCSS), Gulp, MailChimp",
 		"thumbnail": "go-brightline/thumb/brightline.jpg",
-		"detailImages": [
+		"detailAssets": [
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "go-brightline/desktop/home.jpg"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "go-brightline/desktop/miami.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "go-brightline/mobile/home.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "go-brightline/mobile/menu.jpg"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "go-brightline/desktop/progress.jpg"
 			}
 		]
@@ -76,25 +134,30 @@
 		"type": "Website",
 		"technologies": "Jade, JavaScript(jQuery), SASS(SCSS), Foundation, Modernizr, Grunt",
 		"thumbnail": "911/thumb/911.jpg",
-		"detailImages": [
+		"detailAssets": [
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "911/desktop/home.jpg"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "911/desktop/detail.jpg"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "911/desktop/hologram.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "911/mobile/home.jpg"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "911/mobile/hologram.jpg"
 			}
 		]
@@ -108,9 +171,10 @@
 		"technologies": "Jekyll, SASS(SCSS), Gulp, GitHub Pages",
 		"source": "https://github.com/TrevorRice/trevrice.com",
 		"thumbnail": "portfolio/thumb/trevrice-thumb-min.png",
-		"detailImages": [
+		"detailAssets": [
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "portfolio/thumb/trevrice-thumb-min.png"
 			}
 
@@ -124,25 +188,30 @@
 		"type": "Websites",
 		"technologies": "SASS, JavaScript(jQuery), BoltCMS, Wordpress, Tumblr, Foundation, Grunt, SourceTree, Video.js",
 		"thumbnail": "leo-burnett/thumb/leo-black-bg-min.png",
-		"detailImages": [
+		"detailAssets": [
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "leo-burnett/comed-homepage-min.png"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "leo-burnett/comed-andstem-min.png"
 			},
 			{
-				"imageWidth": "half-width",
+				"type": "image",
+				"width": "half-width",
 				"src": "leo-burnett/comed-videos-min.png"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "leo-burnett/marwen-homepage-min.png"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "leo-burnett/marwen-installation-min.png"
 			}
 
@@ -157,17 +226,20 @@
 		"technologies": "Three.js, SASS(SCSS), Grunt, jQuery",
 		"source": "https://github.com/TrevorRice/Cosmic-Calendar",
 		"thumbnail": "cosmic-calendar/thumb/cosmic-calendar-thumb-min.png",
-		"detailImages": [
+		"detailAssets": [
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "cosmic-calendar/cosmic-calendar-home-min.png"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "cosmic-calendar/cosmic-calendar-info-min.png"
 			},
 			{
-				"imageWidth": "full-width",
+				"type": "image",
+				"width": "full-width",
 				"src": "cosmic-calendar/cosmic-calendar-earth-min.png"
 			}
 

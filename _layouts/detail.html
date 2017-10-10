@@ -5,23 +5,38 @@ layout: default
 <main class="detail-page">
     <section class="intro">
       	<h1>{{ page.titleDetail }}</h1>
-      	<p>{{ page.description }}</p>
+      	<p>{{ page.description | newline_to_br }}</p>
         <br/>
       	<p>{{ page.technologies }}</p>
+        {% if page.awards %}
+          <br/>
+          <p>
+            {% for award in page.awards %}
+              <a href="{{ award.link }}" target="_blank">{{ award.name }}</a>
+              {% if forloop.last == false %}
+                <br/>
+              {% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
         {% if page.link %}
-        <br/>
-        <p><a href="{{ page.link }}" target="_blank">View Website</a></p>
+          <br/>
+          <p><a href="{{ page.link }}" target="_blank">View Website</a></p>
         {% endif %}
         {% if page.source %}
-        <br/>
-        <p><a href="{{ page.source }}" target="_blank">Source Code</a></p>
+          <br/>
+          <p><a href="{{ page.source }}" target="_blank">Source Code</a></p>
         {% endif %}
     </section>
     <section class="project-images">
       	<ul class="image-container">
-      		{% for image in page.detailImages %}
-			     <li class="{{ image.imageWidth }}">
-				    <img src="/assets/img/{{ image.src }}">
+      		{% for asset in page.detailAssets %}
+			     <li class="{{ asset.width }}">
+            {% if asset.type == 'image' %}
+				      <img src="/assets/img/{{ asset.src }}">
+            {% else if asset.type == 'video' %}
+              <video src="/assets/video/{{ asset.src }}" muted autoplay loop></video>
+            {% endif %}
 			     </li>
       		{% endfor %}
       	</ul>
