@@ -92,7 +92,6 @@
 		"title": "Brightline",
 		"titleDetail": "Brightline Marketing Site",
 		"href": "go-brightline",
-		"link": "//gobrightline.com",
 		"description": "This site served as a hub for All Aboard Florida and Brightline rail progress and news. From the beginning, I was tasked with leading the design of the front-end architecture and development. I created modular components that could be reused throughout the site to increase our efficiency since this was a rather large job for a two-man team. A few JavaScript libraries were also used to speed up development. Because the content was managed by a number of people on the Brightline team, we had to ensure that the Admin panel was intuitive and accessible for the less technically inclined. It was decided that WordPress would be used since that was the CMS the client was most familiar with. A few plugins helped to create a user-friendly experience for the content managers. Behind the scenes, PHP was used to customize a number of plugins to best suit our needs. This was one of the first projects where I pushed for the use of SVGs for their performance and quality benefits. Shortly after launch, we migrated the site to WP Engine which provided some performance and security assistance.",
 		"type": "Website",
 		"technologies": "PHP, WordPress, WP Engine, JavaScript, Multiscroll.js, Fancybox.js, Modernizr, SASS(SCSS), Gulp, MailChimp",
@@ -163,24 +162,6 @@
 		]
 	},
 	{
-		"title": "trevrice.com",
-		"titleDetail": "trevrice.com",
-		"href": "portfolio",
-		"description": "For my portfolio site, I aimed for a minimalist aesthetic, using a single typeface and only two colors. This ended up being the perfect opportunity to try out a few new technologies, particularly React, Gulp and Jekyll. The original plan was to build a single-page application with React and React Router to mimic a ‘typical’ website. Gulp was used to transpile ES6 JavaScript to ES5 (with the help of Babel and Browserify) and compile SCSS to CSS. After completing roughly eighty percent of the site (and learning a lot), in the end, I decided that I actually wanted users to have the ‘typical’ multi-page experience. Using Jekyll, I was able to generate a simple static site from a content-filled JSON file. A few Gulp tasks were used to build and deploy my Jekyll site.",
-		"type": "Website",
-		"technologies": "Jekyll, SASS(SCSS), Gulp, GitHub Pages",
-		"source": "https://github.com/TrevorRice/trevrice.com",
-		"thumbnail": "portfolio/thumb/trevrice-thumb-min.png",
-		"detailAssets": [
-			{
-				"type": "image",
-				"width": "full-width",
-				"src": "portfolio/thumb/trevrice-thumb-min.png"
-			}
-
-		]
-	},
-	{
 		"title": "Leo Burnett Internship",
 		"titleDetail": "Leo Burnett Internship",
 		"href": "leo-burnett",
@@ -213,34 +194,6 @@
 				"type": "image",
 				"width": "full-width",
 				"src": "leo-burnett/marwen-installation-min.png"
-			}
-
-		]
-	},
-	{
-		"title": "Cosmic Calendar",
-		"titleDetail": "Cosmic Calendar",
-		"href": "cosmic-calendar",
-		"description": "Inspired by both Cosmos: A Personal Voyage and Cosmos: A Spacetime Odyssey, I decided to create a website to help visualize the universe. Three.js was used to create the 3D celestial objects.",
-		"type": "Website",
-		"technologies": "Three.js, SASS(SCSS), Grunt, jQuery",
-		"source": "https://github.com/TrevorRice/Cosmic-Calendar",
-		"thumbnail": "cosmic-calendar/thumb/cosmic-calendar-thumb-min.png",
-		"detailAssets": [
-			{
-				"type": "image",
-				"width": "full-width",
-				"src": "cosmic-calendar/cosmic-calendar-home-min.png"
-			},
-			{
-				"type": "image",
-				"width": "full-width",
-				"src": "cosmic-calendar/cosmic-calendar-info-min.png"
-			},
-			{
-				"type": "image",
-				"width": "full-width",
-				"src": "cosmic-calendar/cosmic-calendar-earth-min.png"
 			}
 
 		]
