@@ -1,4 +1,3 @@
-test
 <ul>
 	<li><del>CONTENT</del></li>
 	<li><del>404 page</del></li>
