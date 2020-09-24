@@ -1,29 +1,29 @@
 ---
-layout: default
+layout: layouts/default.html
 ---
 
 <main class="work-page">
-	<section class="intro">
-		<h1>Hi, I'm Trevor Rice &mdash; <br /> a web developer with a passion for front-end engineering.</h1>
-		<p>I want to be surrounded by brilliant people, to be excited by my work, and to push myself every day.</p>
-		<br/>
-		<p>I'm always up for a challenge!</p>
-	</section>
-	<section class="featured-work">
-		<h2 class="work-title">Featured Work</h2>
-		<ul class="work-container">
-			{% for project in site.data.projects %}
-			<li class="project">
-				<figure>
-			 		<img src="/assets/img/{{ project.thumbnail }}" />
-			 		<figcaption>
-			 			<h3>{{ project.title }}</h3>
-			 			<p>{{ project.type }}</p>
-			 		</figcaption>
-			 		<a href="/work/{{ project.href }}.html"></a>
-			 	</figure>
-			</li>
-			{% endfor %}
-		</ul>
-	</section>
+  <section class="intro">
+    <h1>Hi, I'm Trevor Rice &mdash; <br /> a web developer with a passion for front-end engineering.</h1>
+    <p>I want to be surrounded by brilliant people, to be excited by my work, and to push myself every day.</p>
+    <br/>
+    <p>I'm always up for a challenge!</p>
+  </section>
+  <section class="featured-work">
+    <h2 class="work-title">Featured Work</h2>
+    <ul class="work-container">
+      {% for project in projects %}
+      <li class="project">
+        <figure>
+           <img src="/assets/img/{{ project.thumbnail }}" />
+           <figcaption>
+             <h3>{{ project.title }}</h3>
+             <p>{{ project.type }}</p>
+           </figcaption>
+           <a href="/work/{{ project.href }}"></a>
+         </figure>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </main>

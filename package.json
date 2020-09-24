@@ -1,6 +1,6 @@
 {
   "name": "trevrice.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Portfolio site of Trevor Rice",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,6 @@
   },
   "homepage": "https://github.com/TrevorRice/trevrice.com#readme",
   "devDependencies": {
-    "browser-sync": "^2.10.1",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "imagemin-optipng": "^4.3.0"
+    "@11ty/eleventy": "^0.11.0"
   }
 }
