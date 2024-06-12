@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'MaisonNeueBook';
-	src: url('/assets/fonts/maisonneuebook.ttf') format('truetype');
+	src: url('/fonts/maisonneuebook.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'MaisonNeueBold';
-	src: url('/assets/fonts/maisonneuebold.ttf') format('truetype');
-	font-weight: normal;
+	src: url('/fonts/maisonneuebold.ttf') format('truetype');
+	font-weight: bold;
 	font-style: normal;
 }

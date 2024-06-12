@@ -4,6 +4,7 @@
   "description": "Portfolio site of Trevor Rice",
   "main": "index.js",
   "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,6 @@
   },
   "homepage": "https://github.com/TrevorRice/trevrice.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
