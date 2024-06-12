@@ -1,0 +1,123 @@
+:root {
+    color-scheme: light dark;
+
+    /* Typography */
+    --font-family-base: MaisonNeueBook, system-ui, sans-serif;
+    --font-family-heading: MaisonNeueBold, system-ui, sans-serif;
+    --font-weight-normal: normal;
+    --font-weight-bold: bold;
+    --font-size-base: 1rem;
+    --font-size-1-and-half-x: calc(var(--font-size-base) * 1.5);
+    --font-size-3-x: calc(var(--font-size-base) * 3);
+
+    /* Color */
+    --color-white: #FAF9F6;
+    --color-black: #0C0C0C;
+    --color-foreground: var(--color-black);
+    --color-foreground-inverse: var(--color-white);
+    --color-background: var(--color-white);
+    --color-background-inverse: var(--color-black);
+
+    /* Space */
+    --space-base: 8px;
+    --space-half-x: calc(var(--space-base) * .5);
+    --space-1-x: var(--space-base);
+    --space-2-x: calc(var(--space-base) * 2);
+    --space-3-x: calc(var(--space-base) * 2);
+    --space-4-x: calc(var(--space-base) * 4);
+
+    /* Divider */
+    --divider-thickness: 4px;
+    
+    @media (prefers-color-scheme: dark) {
+        --color-foreground: var(--color-white);
+        --color-foreground-inverse: var(--color-black);
+        --color-background: var(--color-black);
+        --color-background-inverse: var(--color-white);
+    }
+}
+        
+body {
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-1-and-half-x);
+    display: grid;
+    gap: var(--space-4-x);
+    padding-block: 64px;
+    padding-inline: 64px;
+    color: var(--color-foreground);
+    background-color: var(--color-background);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4-x);
+    max-inline-size: 333px;
+}
+
+h1 {
+    position: relative;
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-3-x);
+    padding-block-end: var(--space-1-x);
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset-inline: 0;
+        inset-block-end: 0;
+        inline-size: 100px;
+        block-size: var(--divider-thickness);
+        background-color: var(--color-foreground);
+    }
+}
+
+a {
+    position: relative;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-foreground);
+    padding-block: var(--space-half-x);
+    text-decoration-thickness: calc(var(--divider-thickness) / 2);
+    text-underline-offset: var(--divider-thickness);
+
+    &:focus {
+        outline: none;
+    }
+
+    &:focus::before {
+        outline: calc(var(--divider-thickness) / 2) solid var(--color-background-inverse);
+        outline-offset: calc(var(--divider-thickness) / 2);
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--color-foreground-inverse);
+        text-decoration: none;
+        
+        &::before {
+            content: "";
+            position: absolute;
+            inset-block: 0;
+            inset-inline: -4px;
+            z-index: -1;
+            background-color: var(--color-background-inverse);
+        }
+    }
+}
+
+footer {
+    container: footer / inline-size;
+
+    ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2-x);
+
+        @container footer (inline-size > 400px) {
+            flex-direction: row;
+        }
+    }
+}
